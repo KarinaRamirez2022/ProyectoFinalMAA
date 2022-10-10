@@ -82,10 +82,10 @@ Análisis exploratorio de datos
 -	Histograma de las variables: Se observa variables que tienen una distribución sesgada hacia la izquierda (por ejemplo: Radio_m, Compacidad_m, Concavidad_m) y otras siguen una distribución más centradas (Suavidad_m y Simetria_m).
 -	Distribuciones bivariadas
 Nos ayudan a visualizar la relación entre un par de variables. Al observar las gráficas podemos notar relaciones lineales entre las variables: 
-o	Perimetro_m y Radio_m
-o	Area_m y Radio_m
-o	Compacidad_m y Concavidad_m
-o	Concavidad_m y PuntosConcavidad_m
+   o	Perimetro_m y Radio_m
+   o	Area_m y Radio_m
+   o	Compacidad_m y Concavidad_m
+   o	Concavidad_m y PuntosConcavidad_m
 
 Entre las otras variables no se puede identificar un patrón claro- 
 -	Matriz de correlación: Se puede observar que la variable “Diagnostico” tiene mayor relación con las variables Puntosconcavos_m, Radio_m, Perimetro_m, Area_m y Concavidad_m.
@@ -96,87 +96,20 @@ El primer paso para trabajar con modelos de aprendizaje automático es separar l
 
 6	Resultados Modelos de Aprendizaje Automático
 
-6.1	Modelo 1: LINEAR CLASSIFIER
+A continuación, um resumen de los resultados de Accuracy y de la Matriz de Confusión para cada uno de los modelos
 
-Accuracy Train:  0.9210526315789473
-Accuracy Test:  0.9042553191489362
+	    		                                                      MATRIZ DE CONUSIÓN							
+         ________________    ______________________________________________________________________________________________
+			     ACCURACY                                Training                                                  Test			
+         _________________   _______________________________________________+______________________________________________            
+MODELO	  Training	 Test	    Verdaderos +	Verdaderos -	Falsos +	Falsos -	Verdaderos +	Verdaderos -	Falsos +	Falsos -
+_____________________________________________________________________________+______________________________________________
+LC	      0,92105	  0,90426	      236	            114	        5	        25	         115	          55	      1	      17
+DT	      1,00000	  0,92672	      241	            241	        0	         0	         107	         108	      9	       8
+RF	      0,93154	  0,88362	      235	            214	        6	        27	         108	          97	      9	       8
+KN	      1,00000	  0,89655	      241	            241	        0	         0	         106	         102	     19	      14
 
-Matriz de confusión- training
-
-Verdaderos positivos: 236
-Verdaderos negativos: 114
-Falsos positivos:5
-Falsos negativos:25
-
-Matriz de confusión- test
-
-Verdaderos positivos: 115
-Verdaderos negativos: 55
-Falsos positivos:1
-Falsos negativos:17
-
-
-6.2	Modelo 2: DECISION TREE CLASSIFIER
-
-Accuracy Train:  1.0
-Accuracy Test:  0.9267241379310345
-
-Matriz de confusión- training
-
-Verdaderos positivos: 241
-Verdaderos negativos: 241
-Falsos positivos:0
-Falsos negativos:0
-
-Matriz de confusión- test
-
-Verdaderos positivos: 107
-Verdaderos negativos: 108
-Falsos positivos:9
-Falsos negativos:8
-
-
-6.3	Modelo 3: RANDOM FOREST CLASSIFIER
-
-Accuracy Train:  0.9315352697095436
-Accuracy Test:  0.8836206896551724
-
-Matriz de confusión- training
-
-Verdaderos positivos: 235
-Verdaderos negativos: 214
-Falsos positivos:6
-Falsos negativos:27
-
-Matriz de confusión- test
-
-Verdaderos positivos: 108
-Verdaderos negativos: 97
-Falsos positivos:8
-Falsos negativos:19
-
-6.4	Modelo 4: KNEIGHBOURS CLASSIFIER
-
-Accuracy Train:  1.0
-Accuracy Test:  0.896551724137931
-
-Matriz de confusión- training
-
-Verdaderos positivos: 241
-Verdaderos negativos: 241
-Falsos positivos:0
-Falsos negativos:0
-
-Matriz de confusión- test
-
-Verdaderos positivos: 106
-Verdaderos negativos: 102
-Falsos positivos:19
-Falsos negativos:14
-
-
-
-7	Comparación de modelos
+Adicionalmente, se calcula algunas métricas:
 
 
 
