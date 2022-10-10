@@ -109,4 +109,16 @@ asdfasd
 
 7	Comparación de modelos
 
+Sdfasdf
+
+
+	               Accuracy		    Matriz de confusión	
+	           Training	Test	    Training	Test
+Modelo 1			sss	
+Modelo 2				
+Modelo 3				
+Modelo 4				
+Modelo 5				
+
+
 
