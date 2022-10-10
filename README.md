@@ -97,23 +97,18 @@ El primer paso para trabajar con modelos de aprendizaje automático es separar l
 
 Se utilizó cuatro modelo de predicción: Lineal Classifier (LC), Decision Tree Classifier (DT), RandomForest Classifier (RF) y KNeighbors (KN). A continuación, um resumen de los resultados de Accuracy y de la Matriz de Confusión para cada uno de los modelos:
 
-
 ![image](https://user-images.githubusercontent.com/114968103/194832823-6bdfbd2b-f9b9-4bae-93e3-86596e331d15.png)
 
+En primera instancia, si observamos los resultados de Accuracy para el training y test, estaríamos inclinados por elegir el modelo Decision Tree Classifier. Sin embargo, revisando la bibliografía, cuando la distribución de las clases es desigual se aconseja utilizar el F1-score, definido como>
 
+![image](https://user-images.githubusercontent.com/114968103/194834353-6d88104c-e973-4218-9315-a7d12347c3ab.png)
 
-.	    		                                                      MATRIZ DE CONUSIÓN							
-.         ________________    ______________________________________________________________________________________________
-.			     ACCURACY                                Training                                                  Test			
-.         _________________   _______________________________________________+______________________________________________            
-MODELO	  Training	 Test	    Verdaderos +	Verdaderos -	Falsos +	Falsos -	Verdaderos +	Verdaderos -	Falsos +	Falsos -
-_____________________________________________________________________________+______________________________________________
-LC	      0,92105	  0,90426	      236	            114	        5	        25	         115	          55	      1	      17
-DT	      1,00000	  0,92672	      241	            241	        0	         0	         107	         108	      9	       8
-RF	      0,93154	  0,88362	      235	            214	        6	        27	         108	          97	      9	       8
-KN	      1,00000	  0,89655	      241	            241	        0	         0	         106	         102	     19	      14
+Donde:
+Presición=Verdadero Positivos/(Verdaderos Positivos+Falsos Positivos)
+Sensibilidad=Verdaderos Positivos/(Verdaderos Positivos+Falsos Negativos)
 
-Adicionalmente, se calcula algunas métricas:
+![image](https://user-images.githubusercontent.com/114968103/194835487-6516bc34-9c65-4bfa-a670-1b83b2ca8ece.png)
+
 
 
 
