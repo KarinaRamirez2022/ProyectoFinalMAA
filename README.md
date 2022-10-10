@@ -97,6 +97,11 @@ El primer paso para trabajar con modelos de aprendizaje automático es separar l
 
 Se utilizó cuatro modelo de predicción: Lineal Classifier (LC), Decision Tree Classifier (DT), RandomForest Classifier (RF) y KNeighbors (KN). A continuación, um resumen de los resultados de Accuracy y de la Matriz de Confusión para cada uno de los modelos:
 
+
+![image](https://user-images.githubusercontent.com/114968103/194832823-6bdfbd2b-f9b9-4bae-93e3-86596e331d15.png)
+
+
+
 .	    		                                                      MATRIZ DE CONUSIÓN							
 .         ________________    ______________________________________________________________________________________________
 .			     ACCURACY                                Training                                                  Test			
