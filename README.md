@@ -92,33 +92,92 @@ Entre las otras variables no se puede identificar un patrón claro-
 6	Modelos de Aprendizaje Automático
 El primer paso para trabajar con modelos de aprendizaje automático es separar los datos de entrenamiento y de test. Para el ejercicio se ha separado el 67% de datos para entrenamiento (x_train tiene 380 registros) y el 33% para test (x_test tiene 188 registros).
 
-6.1	Modelo 1: PCA
-asdfasd
-6.2	Modelo 1: PCA
-asdfasd
-6.3	Modelo 1: PCA
-asdfasd
 
-6.4	Modelo 1: PCA
-asdfasd
 
-6.5	Modelo 1: PCA
-asdfasd
+6	Resultados Modelos de Aprendizaje Automático
+
+6.1	Modelo 1: LINEAR CLASSIFIER
+
+Accuracy Train:  0.9210526315789473
+Accuracy Test:  0.9042553191489362
+
+Matriz de confusión- training
+
+Verdaderos positivos: 236
+Verdaderos negativos: 114
+Falsos positivos:5
+Falsos negativos:25
+
+Matriz de confusión- test
+
+Verdaderos positivos: 115
+Verdaderos negativos: 55
+Falsos positivos:1
+Falsos negativos:17
+
+
+6.2	Modelo 2: DECISION TREE CLASSIFIER
+
+Accuracy Train:  1.0
+Accuracy Test:  0.9267241379310345
+
+Matriz de confusión- training
+
+Verdaderos positivos: 241
+Verdaderos negativos: 241
+Falsos positivos:0
+Falsos negativos:0
+
+Matriz de confusión- test
+
+Verdaderos positivos: 107
+Verdaderos negativos: 108
+Falsos positivos:9
+Falsos negativos:8
+
+
+6.3	Modelo 3: RANDOM FOREST CLASSIFIER
+
+Accuracy Train:  0.9315352697095436
+Accuracy Test:  0.8836206896551724
+
+Matriz de confusión- training
+
+Verdaderos positivos: 235
+Verdaderos negativos: 214
+Falsos positivos:6
+Falsos negativos:27
+
+Matriz de confusión- test
+
+Verdaderos positivos: 108
+Verdaderos negativos: 97
+Falsos positivos:8
+Falsos negativos:19
+
+6.4	Modelo 4: KNEIGHBOURS CLASSIFIER
+
+Accuracy Train:  1.0
+Accuracy Test:  0.896551724137931
+
+Matriz de confusión- training
+
+Verdaderos positivos: 241
+Verdaderos negativos: 241
+Falsos positivos:0
+Falsos negativos:0
+
+Matriz de confusión- test
+
+Verdaderos positivos: 106
+Verdaderos negativos: 102
+Falsos positivos:19
+Falsos negativos:14
 
 
 
 7	Comparación de modelos
 
-Sdfasdf
-
-
-	               Accuracy		    Matriz de confusión	
-	           Training	Test	    Training	Test
-Modelo 1			sss	
-Modelo 2				
-Modelo 3				
-Modelo 4				
-Modelo 5				
 
 
 
