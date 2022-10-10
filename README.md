@@ -99,13 +99,17 @@ Se utilizó cuatro modelo de predicción: Lineal Classifier (LC), Decision Tree 
 
 ![image](https://user-images.githubusercontent.com/114968103/194832823-6bdfbd2b-f9b9-4bae-93e3-86596e331d15.png)
 
-En primera instancia, si observamos los resultados de Accuracy para el training y test, estaríamos inclinados por elegir el modelo Decision Tree Classifier. Sin embargo, revisando la bibliografía, cuando la distribución de las clases es desigual se aconseja utilizar el F1-score, definido como>
+En primera instancia, si observamos los resultados de Accuracy para el training y test, estaríamos inclinados por elegir el modelo Decision Tree Classifier. Sin embargo, revisando la bibliografía, cuando la distribución de las clases es desigual se aconseja utilizar el F1-score, definido como:
 
 ![image](https://user-images.githubusercontent.com/114968103/194834353-6d88104c-e973-4218-9315-a7d12347c3ab.png)
 
 Donde:
-Presición=Verdadero Positivos/(Verdaderos Positivos+Falsos Positivos)
+
+Precisión=Verdadero Positivos/(Verdaderos Positivos+Falsos Positivos)
+
 Sensibilidad=Verdaderos Positivos/(Verdaderos Positivos+Falsos Negativos)
+
+Los resultados de esta méttrica para los modelos aplicados son los siguientes:
 
 ![image](https://user-images.githubusercontent.com/114968103/194835487-6516bc34-9c65-4bfa-a670-1b83b2ca8ece.png)
 
