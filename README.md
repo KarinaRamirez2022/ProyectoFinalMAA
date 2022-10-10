@@ -113,7 +113,7 @@ Los resultados de esta méttrica para los modelos aplicados son los siguientes:
 
 ![image](https://user-images.githubusercontent.com/114968103/194835487-6516bc34-9c65-4bfa-a670-1b83b2ca8ece.png)
 
-
+Analizando el F1-score de manera conjunta para training y test, se podría elegir  el modelo Lineal o Random Forest.
 
 
 
