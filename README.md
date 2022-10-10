@@ -95,8 +95,7 @@ Entre las otras variables no se puede identificar un patrón claro-
 
 El primer paso para trabajar con modelos de aprendizaje automático es separar los datos de entrenamiento y de test. Para el ejercicio se ha separado el 67% de datos para entrenamiento (x_train tiene 380 registros) y el 33% para test (x_test tiene 188 registros).
 
-
-A continuación, um resumen de los resultados de Accuracy y de la Matriz de Confusión para cada uno de los modelos
+Se utilizó cuatro modelo de predicción: Lineal Classifier (LC), Decision Tree Classifier (DT), RandomForest Classifier (RF) y KNeighbors (KN). A continuación, um resumen de los resultados de Accuracy y de la Matriz de Confusión para cada uno de los modelos:
 
 .	    		                                                      MATRIZ DE CONUSIÓN							
 .         ________________    ______________________________________________________________________________________________
