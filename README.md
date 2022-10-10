@@ -89,19 +89,19 @@ Nos ayudan a visualizar la relación entre un par de variables. Al observar las 
 
 Entre las otras variables no se puede identificar un patrón claro- 
 -	Matriz de correlación: Se puede observar que la variable “Diagnostico” tiene mayor relación con las variables Puntosconcavos_m, Radio_m, Perimetro_m, Area_m y Concavidad_m.
+
+
 6	Modelos de Aprendizaje Automático
+
 El primer paso para trabajar con modelos de aprendizaje automático es separar los datos de entrenamiento y de test. Para el ejercicio se ha separado el 67% de datos para entrenamiento (x_train tiene 380 registros) y el 33% para test (x_test tiene 188 registros).
 
 
-
-6	Resultados Modelos de Aprendizaje Automático
-
 A continuación, um resumen de los resultados de Accuracy y de la Matriz de Confusión para cada uno de los modelos
 
-	    		                                                      MATRIZ DE CONUSIÓN							
-         ________________    ______________________________________________________________________________________________
-			     ACCURACY                                Training                                                  Test			
-         _________________   _______________________________________________+______________________________________________            
+.	    		                                                      MATRIZ DE CONUSIÓN							
+.         ________________    ______________________________________________________________________________________________
+.			     ACCURACY                                Training                                                  Test			
+.         _________________   _______________________________________________+______________________________________________            
 MODELO	  Training	 Test	    Verdaderos +	Verdaderos -	Falsos +	Falsos -	Verdaderos +	Verdaderos -	Falsos +	Falsos -
 _____________________________________________________________________________+______________________________________________
 LC	      0,92105	  0,90426	      236	            114	        5	        25	         115	          55	      1	      17
